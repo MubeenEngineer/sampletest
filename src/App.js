@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './component/home';
 import About from './component/about';
 import Contact from './component/contact';
+import Ahmad from './abc.jpg'
+
 
 function App() {
   return (
@@ -30,6 +32,7 @@ function App() {
       </div>
       <h1>hi ahmad</h1>
       <p>helloe hows u</p>
+      <img src={Ahmad} width={20} height={20}></img>
     </Router>
   )
 }
