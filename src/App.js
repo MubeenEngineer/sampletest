@@ -28,6 +28,7 @@ function App() {
           <Route path="/about" element={<About />} />
         </Routes>
       </div>
+      <h1>hi ahmad</h1>
     </Router>
   )
 }
